@@ -1,0 +1,6 @@
+
+let valorOriginal = Number(prompt("Digite o valor original do sapato:"))
+let desconto = valorOriginal * 0.15
+let valorFinal = valorOriginal - desconto
+console.log("Desconto: R$ " + desconto)
+console.log("Valor final: R$ " + valorFinal)
